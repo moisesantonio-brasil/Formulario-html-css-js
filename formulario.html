@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Prova</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+    <form class="apr">
+        <h1>Formulario de Prova</h1>
+        <hr>
+        <h2>Informações</h2>
+        <input type="text" maxlength="35" class="nome_input" placeholder="Nome">
+        <br>
+        <input type="number" max="100" min="1" class="idade_input" placeholder=" Idade">
+        <br>
+        <input type="email" maxlength="40" class="email_input" placeholder="E-mail">
+        <br>
+        <label id="categoria">Sexo:</label>
+        <select>
+            <optgroup label="Sexo">
+                <option value="Masculino" class="opt1" name="genero">Masculino</option>
+                <option value="Feminino" class="opt2" name="genero">Feminino</option>
+                <option value="Gênero Lgbt" class="opt3" name="genero">Gênero Lgbt+</option>
+            </optgroup>
+        </select>
+        <br>
+        <button class="começar_btn" type="submit">Começar</button>
+    </form>
+
+    <form class="primeira_parte">
+        <h3>Pergunta 01:</h3>
+        <p>Existe uma forma geométrica que possue quatro lados, qual é essa
+            forma?</p>
+        <div class="vazio0">
+            <label for="">Triangulo</label>
+        </div>
+        <div class="vazio1">
+            <label for="">Retângulo</label>
+        </div>
+        <div class="vazio2">
+            <label for="">Quadrado</label>
+        </div>
+        <hr>
+        <h3>Pergunta 2:</h3>
+        <p>Existe um animal que foi extinto a milhares de anos, que animal é esse:</p>
+        <div class="vazio3">
+            <label for="">Cachorro</label>
+        </div>
+
+        <div class="vazio4">
+            <label for="">Dinossauro</label>
+        </div>
+
+        <div class="vazio5">
+            <label for="">Avestruz</label>
+        </div>
+
+        <hr>
+
+        <h3>Pergunta 3:</h3>
+        <p>Selecione o resultado da seguinte equaçao, 10-3-5*2*5:</p>
+        <div class="vazio6">
+            <label for="">total é 20</label>
+        </div>
+
+        <div class="vazio7">
+            <label for="">total é 30</label>
+        </div>
+
+        <div class="vazio8">
+            <label for="">total é 10</label>
+        </div>
+
+
+        <br>
+        <button class="continuar">Continuar</button>
+    </form>
+
+    <form class="segunda_parte">
+        <h3>Pergunta 4:</h3>
+        <p>Qual animal é esse?</p>
+        <img src="/img/pexels-pixabay-206627.jpg" alt="">
+        <br>
+        <div class="vazio9">
+            <label for="">Coelho</label>
+        </div>
+
+        <div class="vazio10">
+            <label for="">Galinha</label>
+        </div>
+
+        <div class="vazio11">
+            <label for="">Rato</label>
+        </div>
+
+
+        <br>
+        <h3>Pergunta 5:</h3>
+        <p>Selecione a opçao que for uma laranja:</p>
+        <img src="/img/pexels-pixabay-161559.jpg" alt="" srcset="">
+        <div class="vazio12"><label for="">Laranja</label></div>
+        <img src="img/pexels-mali-maeder-568471.jpg" alt="">
+        <div class="vazio13"><label for="">Maça</label></div>
+        <img src="/img/pexels-pixabay-206959.jpg" alt="">
+        <div class="vazio14"><label for="">Pêra</label></div>
+        <br>
+        <button class="continuar2">continuar</button>
+    </form>
+
+    <form class="terceira_parte">
+        <span></span>
+        <button class="recomeçar">recomeçar</button>
+        <h4></h4>
+        <p class="msg">clique para continuar</p>
+    </form>
+    <form class="nota">
+        <h1 class="titulo">Agradecimento</h1>
+        <h1 class="notadoaluno"></h1>
+        <h1 class="chat">Sua interação é importante para mim,
+            portanto , até a Próxima.
+        </h1>
+
+    </form>
+
+    <script src="formulario.js"></script>
+</body>
+
+</html>
