@@ -235,3 +235,156 @@ hr {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
 }
+
+@media screen and (min-width:390px) {
+    .começar_btn{
+        margin-left: 140px;
+        width: 120px;
+    }
+.primeira_parte{
+    padding: 4px;
+}    
+.continuar{
+    margin-top: 20px;
+    margin-left: 140px;
+    width: 120px;
+}
+img{
+    width:100px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.vazio12,.vazio13,.vazio14{
+    margin-right: 50px;
+}
+.segunda_parte{
+    height: 640px;
+}
+.continuar2{
+    margin-left: 150px;
+    width: 120px;
+}
+.terceira_parte{
+    height: 570px;
+}
+.recomeçar{
+    margin-left: 150px;
+}
+}
+@media screen and (min-width:430px) {
+    .primeira_parte{
+        padding: 4px;
+    }    
+    .continuar{
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    img{
+        width:100px;
+        margin-right: 5px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .vazio12,.vazio13,.vazio14{
+        margin-right: 90px;
+    }
+    .segunda_parte{
+        height: 640px;
+    }
+    .continuar2{
+        margin-left: 170px;
+    }
+    .terceira_parte{
+        height: 570px;
+    }
+    .recomeçar{
+        margin-left: 150px;
+    }
+    }
+    @media screen and (min-width:460px) {
+        .primeira_parte{
+            padding: 4px;
+        }    
+        .continuar{
+            margin-top: 20px;
+            margin-left: 150px;
+        }
+        img{
+            width:100px;
+            margin-right: 5px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+        .vazio12,.vazio13,.vazio14{
+            margin-right: 110px;
+        }
+        .segunda_parte{
+            height: 640px;
+        }
+        .continuar2{
+            margin-left: 170px;
+        }
+        .terceira_parte{
+            height: 570px;
+        }
+        .recomeçar{
+            margin-left: 150px;
+        }
+        }
+        @media screen and (min-width:480px) {
+            .começar_btn{
+                margin-left: 200px;
+            }
+            .nome_input,.idade_input,.email_input{
+                width: 300px;
+               }
+            .primeira_parte{
+                padding: 4px;
+            }    
+            .continuar{
+                margin-top: 20px;
+                margin-left: 180px;
+            }
+            img{
+                width:100px;
+                margin-right: 5px;
+                margin-left: 10px;
+                margin-top: 5px;
+            }
+            .vazio12,.vazio13,.vazio14{
+                margin-right: 130px;
+            }
+            .segunda_parte{
+                height: 640px;
+            }
+            .continuar2{
+                margin-left: 200px;
+            }
+            .terceira_parte{
+                height: 570px;
+            }
+            .recomeçar{
+                margin-left: 190px;
+            }
+            }
+            @media screen and (min-width:800px) {
+               .nome_input,.idade_input,.email_input{
+                width: 350px;
+               }
+               .continuar{
+                margin-left: 220px;
+               }
+            .primeira_parte{
+                height: 480px;
+               }
+               .segunda_parte{
+                  height: 650px;
+                }
+                .terceira_parte{
+                    height: 500px;
+                }
+                .vazio12,.vazio13,.vazio14{
+                    margin-right: 150px;
+                }
+                }
